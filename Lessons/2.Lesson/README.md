@@ -1,4 +1,4 @@
-# Ukoly z 2. cvičení - Programování
+# Úkoly z 2. cvičení - Programování
 
 - Prace s git a základní příkazy
 
