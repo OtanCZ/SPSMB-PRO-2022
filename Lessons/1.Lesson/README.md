@@ -1,4 +1,4 @@
-# Ukoly z 1. cvičení
+# Úkoly z 1. cvičení
 
 - Vytvořte funkci pro výpočet kvadratické rovnoci
 
