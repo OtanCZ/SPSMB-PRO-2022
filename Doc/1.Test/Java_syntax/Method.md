@@ -1,4 +1,4 @@
-# Methods
+# Method
 Metoda je blok kódu, který se zapne jen když je vyvolaná.
 Metody se používají pro to aby se kód mohl používat opakovaně
 
