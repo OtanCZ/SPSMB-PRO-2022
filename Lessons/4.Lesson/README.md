@@ -1,7 +1,7 @@
 
 ## Bonusová úloha
 
-Napište program, který bude kontrolovat změny v původním poli typu int. Program by měl číst data ze standardního vstupu a vypisovat záznamy do standardního výstupu. Na vstupu jsou vždy dvě pole. První pole je původní beze změn. Druhé pole je již po provedených změnách. Změnou může být chápáno přidání čísla nebo smazání čísla. Z toho by mělo být patrné, že velikosti těchto vstupních polí mohou být rozdílné. Pokud číslo bylo vloženo vypíše program INST ČÍSLO, pokud číslo bylo z původního pole smazáno, tak program vypíše DEL ČÍSLO.
+Napište program, který bude kontrolovat změny v původním poli typu int. Program by měl číst data ze standardního vstupu a vypisovat záznamy do standardního výstupu. Na vstupu jsou vždy dvě pole. První pole je původní beze změn. Druhé pole je již po provedených změnách. Změnou může být chápáno přidání čísla nebo smazání čísla. Z toho by mělo být patrné, že velikosti těchto vstupních polí mohou být rozdílné. Pokud číslo bylo vloženo vypíše program INS ČÍSLO, pokud číslo bylo z původního pole smazáno, tak program vypíše DEL ČÍSLO.
 
 První hodnotou na vstupu programu je velikost prvního - původního - pole, následuje sekvence hodnot, která slouží k naplnění prvního pole. Další hodnotou je - po těch předchozích - je velikost druhého - upraveného pole. Znovu následuje sekvence čísel k naplnění pole.
 
