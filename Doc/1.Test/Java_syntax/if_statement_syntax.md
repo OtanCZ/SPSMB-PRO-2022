@@ -8,13 +8,13 @@
 int x = 1;
 int y = 5;
 
- if(x > y){
-    System.out.println("X je větší");
-   }else if(x < y){
-    System.out.println("Y je větší");
-   }else{
-    System.out.println("Obě čísla jsou stejná");
-   }
- }
+if(x > y){
+   System.out.println("X je větší");
+  }else if(x < y){
+   System.out.println("Y je větší");
+  }else{
+   System.out.println("Obě čísla jsou stejná");
+  }
+}
  ```
 
