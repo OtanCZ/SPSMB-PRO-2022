@@ -15,6 +15,6 @@ int y = 5;
    }else{
     System.out.println("Obě čísla jsou stejná");
    }
-}
+ }
  ```
 
