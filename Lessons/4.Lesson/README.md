@@ -1,3 +1,15 @@
+# 4. Hodina
+
+- Vytvořte metodu pro vygenerování pole s náhodnými hodnotami, které je seřazené (1, 25 ,62 ,68) a na vstupu ma popsané argumenty
+  níže. V řešení nesmí být použito Arrays.sort() ani jiný způsob seřazení potom, co je vygenerované pole s náhodnými hodnoty.
+    - velikost pole
+    - minimální hodnotu
+    - maximální hodnotu
+- Vernamova šifra - Vytvořte metodu, ktera zašifruje text pomocí  [Vermanova Sifra](https://www.algoritmy.net/article/95/Vernamova-sifra). Na vstupu metody jsou tyto hodnoty:
+   - text (typu String)
+   - key/password (typu String)
+
+ 
 
 ## Bonusová úloha
 
