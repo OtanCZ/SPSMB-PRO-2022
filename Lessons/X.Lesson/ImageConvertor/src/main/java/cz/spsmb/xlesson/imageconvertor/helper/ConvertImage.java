@@ -42,9 +42,7 @@ public class ConvertImage {
     }
 
     public static Image convertIntArrayToImg(Image image, int[][][] img) {
-
         BufferedImage bufferedImage = SwingFXUtils.fromFXImage(image, null);
-
         for (int i = 0; i < img[0].length; i++) {
             for (int j = 0; j < img[0][i].length; j++) {
 
@@ -56,7 +54,6 @@ public class ConvertImage {
 
             }
         }
-
         return SwingFXUtils.toFXImage(bufferedImage, null);
     }
 }
