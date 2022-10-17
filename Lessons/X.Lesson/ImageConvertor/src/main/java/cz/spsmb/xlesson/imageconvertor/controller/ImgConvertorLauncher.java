@@ -19,6 +19,7 @@ public class ImgConvertorLauncher extends Application {
         Scene scene = new Scene(fxmlLoader.load(), 1600, 640);
         scene.getStylesheets().add(ImgConvertorLauncher.class.getResource("styleSheet.css").toString());
         stage.setTitle("Image convertor");
+        stage.setResizable(false);
         stage.setScene(scene);
         stage.show();
     }

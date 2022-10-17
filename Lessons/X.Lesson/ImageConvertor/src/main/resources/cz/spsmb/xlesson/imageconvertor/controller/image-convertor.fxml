@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.*?>
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.*?>
-<?import javafx.scene.image.*?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.*?>
-
+<?import javafx.scene.text.*?>
 <VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cz.spsmb.xlesson.imageconvertor.controller.ImageController">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
@@ -13,22 +13,54 @@
       <children>
          <VBox prefHeight="200.0" prefWidth="100.0" spacing="5">
             <children>
-               <Label text="Base image" />
-               <ImageView fx:id="leftImage" fitHeight="300.0" fitWidth="500.0" pickOnBounds="true" preserveRatio="true" />
-               <Button mnemonicParsing="false" onMouseClicked="#loadLeftImage" text="Load Img1" />
+               <HBox prefHeight="100.0" prefWidth="200.0">
+                  <children>
+                     <Label text="Base image">
+                        <font>
+                           <Font name="System Bold" size="18.0"/>
+                        </font>
+                     </Label>
+                     <Label fx:id="leftSize">
+                        <font>
+                           <Font size="10.0"/>
+                        </font>
+                     </Label>
+                  </children>
+               </HBox>
+               <ImageView fx:id="leftImage" fitHeight="300.0" fitWidth="500.0" pickOnBounds="true"
+                          preserveRatio="true"/>
+               <Button mnemonicParsing="false" onMouseClicked="#loadLeftImage" text="Load Image"/>
             </children>
          </VBox>
          <VBox prefHeight="200.0" prefWidth="100.0" spacing="5">
             <children>
-               <Label text="Filter" />
-               <ImageView fx:id="midImage" fitHeight="300.0" fitWidth="500.0" pickOnBounds="true" preserveRatio="true" />
-               <Button fx:id="midImageButton" mnemonicParsing="false" onMouseClicked="#loadMidImage" text="Load Img2" />
+               <HBox prefHeight="100.0" prefWidth="200.0">
+                  <children>
+                     <Label text="Filter">
+                        <font>
+                           <Font name="System Bold" size="18.0"/>
+                        </font>
+                     </Label>
+                     <Label fx:id="midSize">
+                        <font>
+                           <Font size="10.0"/>
+                        </font>
+                     </Label>
+                  </children>
+               </HBox>
+               <ImageView fx:id="midImage" fitHeight="300.0" fitWidth="500.0" pickOnBounds="true" preserveRatio="true"/>
+               <Button fx:id="midImageButton" mnemonicParsing="false" onMouseClicked="#loadMidImage" text="Load Image"/>
             </children>
          </VBox>
          <VBox prefHeight="200.0" prefWidth="100.0" spacing="5">
             <children>
-               <Label text="Result" />
-               <ImageView fx:id="rightImage" fitHeight="300.0" fitWidth="500.0" pickOnBounds="true" preserveRatio="true" />
+               <Label text="Result">
+                  <font>
+                     <Font name="System Bold" size="18.0"/>
+                  </font>
+               </Label>
+               <ImageView fx:id="rightImage" fitHeight="300.0" fitWidth="500.0" pickOnBounds="true"
+                          preserveRatio="true"/>
             </children>
          </VBox>
       </children></HBox>

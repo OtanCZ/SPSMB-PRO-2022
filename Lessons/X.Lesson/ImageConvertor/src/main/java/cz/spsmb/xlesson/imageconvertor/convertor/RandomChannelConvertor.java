@@ -2,7 +2,7 @@ package cz.spsmb.xlesson.imageconvertor.convertor;
 
 import cz.spsmb.xlesson.imageconvertor.model.Image;
 
-public class RandomChannelConvertor extends AbstractImageConvertor {
+public class RandomChannelConvertor implements Convertor {
 
     @Override
     public String getLabel() {
@@ -10,16 +10,18 @@ public class RandomChannelConvertor extends AbstractImageConvertor {
     }
 
     @Override
-    protected int[][][] computeImage(Image imageLeft, Image imageRight) {
-        int[][] r = imageRight.getArray()[randomChannel()];
-        int[][] g = imageLeft.getArray()[randomChannel()];
-        int[][] b = imageRight.getArray()[randomChannel()];
+    public int[][][] compute(Image imageLeft, Image imageRight) {
+        int[][][] leftImg = imageLeft.getArray();
+        int[][][] rightImg = imageRight.getArray();
+
         return new int[][][] {
-                r, g, b
+                leftImg[randomChannel()],
+                rightImg[randomChannel()],
+                leftImg[randomChannel()]
         };
     }
 
     private int randomChannel() {
-        return (int)(Math.random() * 3);
+        return (int) (Math.random() * 3);
     }
 }

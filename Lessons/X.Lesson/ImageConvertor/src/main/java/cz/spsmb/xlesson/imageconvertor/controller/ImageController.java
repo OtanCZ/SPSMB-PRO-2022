@@ -29,6 +29,10 @@ public class ImageController implements Initializable {
     @FXML
     public ImageView leftImage;
     @FXML
+    public Label leftSize;
+    @FXML
+    public Label midSize;
+    @FXML
     public ImageView midImage;
     @FXML
     public ImageView rightImage;
@@ -63,7 +67,9 @@ public class ImageController implements Initializable {
             convertors.getSelectionModel().selectFirst();
         }
         this.leftImage.setImage(new Image("./img/lake.jpg"));
+        this.leftSize.setText(String.format("(%sx%s)", (int) leftImage.getImage().getWidth(), (int) leftImage.getImage().getHeight()));
         this.midImage.setImage(new Image("./img/road.jpg"));
+        this.midSize.setText(String.format("(%sx%s)", (int) midImage.getImage().getWidth(), (int) midImage.getImage().getHeight()));
     }
 
     public void loadLeftImage(MouseEvent mouseEvent) {
@@ -71,6 +77,7 @@ public class ImageController implements Initializable {
         if (chosenFile != null) {
             Image image = new Image(chosenFile.toURI().toString());
             leftImage.setImage(image);
+            leftSize.setText(String.format("(%sx%s)", (int) leftImage.getImage().getWidth(), (int)leftImage.getImage().getHeight()));
         }
     }
 
@@ -86,6 +93,7 @@ public class ImageController implements Initializable {
         if (chosenFile != null) {
             Image image = new Image(chosenFile.toURI().toString());
             midImage.setImage(image);
+            midSize.setText(String.format("(%sx%s)", (int) midImage.getImage().getWidth(), (int)midImage.getImage().getHeight()));
         }
     }
 
@@ -120,6 +128,10 @@ public class ImageController implements Initializable {
                 };
 
                 int[][][] img = convertorService.compute(imageLeft, imageRight);
+                if(img == null) {
+                    label.setText("Method returns NullPointer");
+                    return;
+                }
                 Image convertedImg = ConvertImage.convertIntArrayToImg(leftImg, img);
                 rightImage.setImage(convertedImg);
             } else {
