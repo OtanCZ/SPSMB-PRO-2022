@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/ImageConvertor/ImageConvertor.iml" filepath="$PROJECT_DIR$/ImageConvertor/ImageConvertor.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/X.Lesson.iml" filepath="$PROJECT_DIR$/.idea/X.Lesson.iml" />
-    </modules>
-  </component>
-</project>
