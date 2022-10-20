@@ -13,7 +13,7 @@
 ## Odevzdání úloh
 - získání známky je podmíněno odevzdáním úlohy do deadline u dané úlohy
   - v případě odevzdání před deadline termínem bude navržena známka a je možné známku do deadline zlepšit
-  - v případe odevzdání na poslední chvíli už je pouze udělena známka a nárok na opravu není
+  - v případe odevzdání na poslední chvíli (tj. dealine day) už je pouze udělena známka a nárok na opravu není
 - neodevzdání úlohy v do daného termínu je klasifikováno za 5
   - tuto 5 je možné smazat při dodatečném odevzdání úlohy po dealine ovšem bez nároku na získání známky 
 - aktuální hodnocení bude u zadání každé úlohy a ve sdílené tabulce
