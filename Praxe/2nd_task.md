@@ -13,7 +13,8 @@
 | Pospíšil M.  | Pexeso          |
 
 
-## Podmínky pro vypracování a odevzdání úloh
+## Podmínky pro vypracování a odevzdání úlohy
 - vytvořená aplikace bude poskytovat rohraní v konzoli
 - **deadline** úlohy je první týden v listopadu **(6. 11. 2022)**
 - jednotlivé metody budou okomentovány pomoci javadoc
+- aplikace bude odevzdána v github repozitáři
