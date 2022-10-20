@@ -15,3 +15,4 @@
   - do té doby je rovněž možno úlohu upravovat v případě nepřijetí 
 - neodevzdání úlohy v do daného termínu je klasifikováno za 5
   - tuto 5 je možné smazat při dodatečném odevzdání úlohy po dealine ovšem bez nároku na získání známky 
+- aktuální hodnocení bude u zadání každé úlohy a ve sdílené tabulce
