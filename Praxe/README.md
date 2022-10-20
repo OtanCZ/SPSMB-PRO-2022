@@ -20,4 +20,4 @@
 
 
 ## Úspěsné absolvování předmětu
-- pro úspěsné absolvování je potřeba získat alespoň 3 známky za každý půl rok
+- pro úspěsné absolvování je potřeba získat alespoň 3 známky za každé pololetí
