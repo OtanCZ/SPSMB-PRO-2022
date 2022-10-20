@@ -3,9 +3,9 @@
 - vypracována úloha bude odevzdána pomocí githubu
 - zdrojový kód bude:
   - správně naformátovaný
-  - dodržovat dané konvence
+  - dodržovat dané [konvence](https://www.oracle.com/technetwork/java/codeconventions-150003.pdf)
   - nebude obsahovat české názvy tříd, metod, proměnných,... (pouze v anglickém jazyce)   
-- jednotlivé metody budou okomentovány pomocí javadoc
+- věřejné (public) metody budou okomentovány pomocí javadoc
 
 
 
