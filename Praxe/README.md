@@ -21,3 +21,7 @@
 
 ## Úspěsné absolvování předmětu
 - pro úspěsné absolvování je potřeba získat alespoň 3 známky (jiné než 5) za každé pololetí
+
+## Plagiátorství
+- plagiát budou označena taková řešení, která budou mít podobnost od 50 % a výše
+- v případě zjištěného plagiátu mají všichni zúčastnění za 5
