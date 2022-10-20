@@ -12,7 +12,12 @@
 
 ## Odevzdání úloh
 - získání známky je podmíněno odevzdáním úlohy do deadline u dané úlohy
-  - do té doby je rovněž možno úlohu upravovat v případě nepřijetí 
+  - v případě odevzdání před deadline termínem bude navržena známka a je možné známku do deadline zlepšit
+  - v případe odevzdání na poslední chvíli už je pouze udělena známka a nárok na opravu není
 - neodevzdání úlohy v do daného termínu je klasifikováno za 5
   - tuto 5 je možné smazat při dodatečném odevzdání úlohy po dealine ovšem bez nároku na získání známky 
 - aktuální hodnocení bude u zadání každé úlohy a ve sdílené tabulce
+
+
+## Úspěsné absolvování předmětu
+- pro úspěsné absolvování je potřeba získat alespoň 3 známky za každý půl rok
