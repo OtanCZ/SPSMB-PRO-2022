@@ -7,7 +7,7 @@
 | Šimon J.     | Piškvorky       |                 |
 | Ševčík M.    | Dáma            |                 |
 | Naďo O.      | Prší            |                 |
-| Karásek O.   | Black Jack      |                 |
+| Karásek O.   | Black Jack      | [Black Jack](https://github.com/Karasmore/finall_version_black_jack_game)                |
 | Moucha V.    | Ruleta          |                 |
 | Steinbach D. | Kalkulačka s UI |                 |
 | Pospíšil M.  | Pexeso          |                 |
