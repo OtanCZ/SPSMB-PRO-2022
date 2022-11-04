@@ -8,7 +8,7 @@
 | Ševčík M.    | Dáma            |                 |
 | Naďo O.      | Prší            |                 |
 | Karásek O.   | Black Jack      | [Black Jack](https://github.com/Karasmore/finall_version_black_jack_game)                |
-| Moucha V.    | Ruleta          |                 |
+| Moucha V.    | Ruleta          | [Ruleta](https://l.messenger.com/l.php?u=https%3A%2F%2Fgithub.com%2Fvasad123%2FRuleta_final&h=AT2WeD2zRPzHHH7yjnW3sn7yDArCK8ZSnssSTcCO8XyVwvt_n5KLB1nuG5suqdyi5XCGusVYrqMJldkvixwftAKbgSsXr0PBfWNREwe3lTOojG0N76qzyueIrE_oqw)                |
 | Steinbach D. | Kalkulačka s UI |                 |
 | Pospíšil M.  | Pexeso          |                 |
 
